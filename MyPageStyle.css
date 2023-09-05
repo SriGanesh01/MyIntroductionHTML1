@@ -1,0 +1,86 @@
+body{
+
+    padding-bottom: 200px;
+    background-image: linear-gradient( hsla(261, 55%, 13%, 1) 0%, hsla(0, 0%, 0%, 1) 50%, hsla(318, 82%, 15%, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    padding-top: 52px;
+    margin: 0;
+}
+
+.box-layout-menu{
+    display: flex;
+    position:sticky;
+    margin: 0px;
+}
+.Menu-Items{
+    margin: 0px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: palevioletred;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+.Menu-Text{
+    margin: 0px;
+    white-space: nowrap;
+}
+
+
+.Menu-Text:hover{
+    cursor: pointer;
+    color:burlywood;
+    font-size: 57px;
+    
+}
+
+.Menu-Text:active{
+    color: palegreen;
+}
+
+.Entire-Menu{
+    font-family: Audiowide;
+    font-size: 55px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    margin: 15px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: gray;
+    padding: 5px;
+    margin: 0 auto;
+}
+.Button-Link-Menu{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.My-Links{
+    margin-left: 5px;
+}
+
+.Heading1{
+    color: rgb(166, 117, 212) ;
+    font-family: Sedgwick Ave Display;
+    font-size: 85px;
+    margin: 0px;
+    padding-bottom: 21px;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 0 0 1px rgb(208, 158, 255);
+    letter-spacing: 15px;
+}
+
+.Heading2{
+    color:rgb(71, 9, 129);
+    font-family: Concert One;
+    font-size: 55px;
+    margin: 0px;
+    padding-bottom: 3px;
+    text-align: center;
+    text-shadow: 0 0 3px rgb(95, 48, 138);
+}
+

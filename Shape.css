@@ -1,0 +1,15 @@
+.cooline{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 0px;
+    width: 11px;
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    border-top: 1px solid red;
+    border-left: 260px solid transparent;
+    border-right: 260px solid transparent;
+    box-shadow: 0 0 1px rgb(250, 113, 21);
+}

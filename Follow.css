@@ -1,0 +1,24 @@
+.FollowLight{
+    animation: rotateLight 5s linear infinite;
+    display: inline-block;
+    height: 198px;
+    width: 168px;
+    background-image: linear-gradient(to right, hsla(212, 35%, 58%, 1) 0%, hsla(218, 32%, 80%, 1) 100%);
+    border: none;
+    border-radius: 99px;
+    margin-right: 0px;
+    transition: transform 0.45s ease-out, left 0.45s ease-out, top 0.45s ease-out;
+    pointer-events: none;
+    position:fixed;
+    filter: blur(160px);
+
+}
+
+@keyframes rotateLight {
+    from {
+      transform: rotate(0deg)
+    }
+    to {
+      transform: rotate(359deg)
+    }
+  }

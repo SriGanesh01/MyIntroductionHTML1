@@ -1,0 +1,95 @@
+button 
+{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    vertical-align:sub;
+    border: none;
+    cursor: pointer;
+    font-size: 38px;
+    font-family: Ubuntu;
+}
+.Instagram-Button 
+{
+    font-weight: bold;
+    background-image: linear-gradient( 25deg, #fecb00, #ff3e35, #de00b0, #8033f3);
+    color: aliceblue;
+    border-radius: 2px;
+    transition: opacity 0.25s, color 0.25s, background-image 0.25s, background-clip 0.25s, -webkit-text-fill-color 0.25s, -o-background-clip 0.25s, -o-text-fill-color 0.25s, -moz-background-clip 0.25s, -moz-text-fill-color 0.25s, -webkit-background-clip 0.25s, background-clip 0.25s;
+}
+.Instagram-Button:hover
+{
+    opacity: 75%;
+}
+.Instagram-Button:active
+{
+    color: aliceblue;
+    background-image: linear-gradient(25deg, #fecb00, #ff3e35, #de00b0, #8033f3);
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    opacity: 150%;
+}
+
+.LinkedIn-Button
+{
+    color: rgba(54, 52, 202, 0.89);
+    background-color: aliceblue;
+    font-weight: bold;
+    border-radius: 2px;
+    transition: opacity 0.15s, color 0.25s,
+        background-color 0.25s;
+}
+.LinkedIn-Button:hover
+{
+    opacity: 75%;
+}
+.LinkedIn-Button:active
+{
+    opacity: 50%;
+    color: aliceblue;
+    background-color: rgba(54, 52, 202, 0.89);
+    opacity: 150%;
+    .In-Of-LinkedIn
+    {
+        color: rgb(54, 52, 202);
+        background-color: aliceblue;
+    }
+}
+
+.GitHub-Button
+{
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 1px;
+    font-weight: bolder;
+    transition: opacity 0.15s, color 0.35s,
+        background-color 0.35s;
+}
+.GitHub-Button:hover
+{
+    opacity: 70%;
+}
+.GitHub-Button:active
+{
+    color: black;
+    background-color: whitesmoke;
+    opacity: 150%;
+}
+
+.In-Of-LinkedIn
+{
+    background-color: rgba(54, 52, 202, 0.89);
+    color: aliceblue;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: -2px;
+    border-radius: 2px;
+    transition: opacity 0.15s, color 0.25s,
+        background-color 0.25s;
+}
